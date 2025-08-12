@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>2025 Exhibition - Gallery</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Nav bar -->
+  <nav>
+    <div class="nav-container">
+      <h2 class="logo">2025 Exhibition</h2>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="gallery.html" aria-current="page">Gallery</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </div>
+  </nav>
+
+ 
+  <!-- Slideshow, at the top of the screen -->
+  <div class="slideshow-container">
+    <input type="radio" name="slider" id="slide1" checked />
+    <input type="radio" name="slider" id="slide2" />
+    <input type="radio" name="slider" id="slide3" />
+
+    <div class="slides">
+      <img src="EXAMPLE PHOTO 1.jpg" alt="Significant Place" class="slide-image" id="img1" />
+      <img src="EXAMPLE PHOTO 2.png" alt="Resolved Artwork" class="slide-image" id="img2" />
+      <img src="EXAMPLE PHOTO 3.png" alt="Folio Board" class="slide-image" id="img3" />
+    </div>
+
+    <div class="slider-controls">
+      <label for="slide1" class="control-btn" aria-label="Show Significant Place"></label>
+      <label for="slide2" class="control-btn" aria-label="Show Resolved Artwork"></label>
+      <label for="slide3" class="control-btn" aria-label="Show Folio Board"></label>
+    </div>
+  </div>
+
+  <!-- Gallery Items, photos of the drawing, with description -->
+   <main class="gallery-container">
+    <section class="work">
+      <img src="EXAMPLE PHOTO 1.jpg" alt="Project One" />
+      <div class="work-text">
+        <h2>Artist Name: Jimmy Smith</h2>
+        <p>Good drawing of flower pot.</p>
+      </div>
+    </section>
+
+      <section class="work">
+      <img src="EXAMPLE PHOTO 2.png" alt="Project Two" />
+      <div class="work-text">
+        <h2>Artist Name: Kimmy Sith</h2>
+        <p>Good drawing of leaves.</p>
+      </div>
+    </section>
+
+     <section class="work">
+      <img src="EXAMPLE PHOTO 3.png" alt="Project Three" />
+      <div class="work-text">
+        <h2>Artist Name: Himmy Smit</h2>
+        <p>Aesthetic drawing of the cities silhouettes.</p>
+      </div>
+    </section>
+  
+  </main>
+<!-- Footer -->
+  <footer>
+    <p>© 2025 Student Exhibition | Designed by Ethan Digitech</p>
+  </footer>
+
+</body>
+</html>
